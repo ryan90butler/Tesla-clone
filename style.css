@@ -1,0 +1,378 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* a.header-link-font {
+  padding-right: 80px;
+  padding-bottom: 10px;
+} */
+
+a.shop-text {
+  padding-bottom:  10px;
+}
+
+#menu-cross {
+  display: none;
+}
+
+a#menu-tick {
+  padding-left: 6px;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.model-s-hidden{
+  display: none;
+}
+
+.hidden-footer {
+  display: none;
+}
+
+body {
+  border: none;
+  height: 100vh;
+  box-sizing: content-box;
+  font-family: Gotham Book, "M Hei PRC W45", "M Hei HK W42", "M Hei HK W40", "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: Gotham Book;
+  src: url("/Users/b6utle5r/Documents/DevMountain/websiteClone/demo/Gotham Light/Gotham Light.otf");
+}
+
+@font-face {
+  font-family: Tesla;
+  src: url('/Users/b6utle5r/Documents/DevMountain/websiteClone/demo/tesla/TESLA.ttf');
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.main-container {
+  position: relative;
+  color: white;
+  margin: auto;
+  height: 85%;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+.intro-section {
+  margin: auto;
+}
+
+.title-container {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  margin-top: 51px;
+}
+
+h3.title-links {
+  color: white;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  font-size: 12px;
+}
+
+h1 {
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+header {
+  position: relative;
+  color: white;
+  height: 50px;
+  display: flex;
+}
+
+.header-one {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-one a button {
+  color: white;
+  font-family: tesla;
+  font-size: 21px;
+  letter-spacing: 6px;
+}
+
+.header-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 60%;
+}
+
+.header-two a button:hover {
+  color: grey;
+}
+
+.header-two a button {
+  font-family: Gotham Book;
+  color: white;
+  font-size: 12.5px;
+}
+
+.header-three {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-three a button {
+  font-family: Gotham Book;
+  color: white;
+  font-size: 12.5px;
+  padding-left: 10px;
+}
+
+.header-three a button:hover {
+  color: grey;
+}
+
+footer {
+  position: relative;
+  bottom: 5px;
+  margin-top: 340px;
+}
+
+.newsletter {
+  position: relative;
+  margin-top: 35px;
+}
+
+.intro-section {
+  color: white;
+  margin: auto;
+  font-size: 20px;
+  position: relative;
+  margin-top: 90px;
+  padding-left: 3px;
+}
+
+a.large-button {
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 12px;
+}
+
+a.header-link {
+  text-decoration: none;
+  font-size: 12.5px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+a.header-link:hover {
+  text-decoration: none;
+  font-size: 12.5px;
+  color: rgb(170, 170, 170);
+}
+
+.title-container2 {
+  margin-top: 15px;
+}
+
+h4.title-links {
+  margin-top: 60px;
+}
+
+a.large-button:hover {
+  border: white 0.5px solid;
+}
+
+ul li {
+  display: inline;
+  margin: auto;
+  text-align: center;
+  white-space: pre;
+}
+
+a.footer-notes {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  font-size: 12px;
+}
+
+a.header-menu {
+  text-decoration: none;
+  color: white;
+  font-size: 12.5px;
+  right: 7px;
+  position: absolute;
+  top: 12px;
+}
+
+.footer {
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  word-spacing: -2px;
+}
+
+.footer li {
+  padding-left: 20px;
+  display: inline;
+  color: white;
+  list-style-type: none;
+}
+
+.footer a {
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+img {
+  height: 8px;
+}
+
+li.dot {
+  font-size: 8px;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.background-video-cont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .background-video-cont {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .background-video-cont {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 639px) {
+  .background-video {
+    background: url('https://www.tesla.com/sites/default/files/images/model-x/section-hero-background.jpg?20170907') center center / cover no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+  .background-video-cont {
+    display: none;
+  }
+  .header-two {
+    display: none;
+  }
+  .header-three {
+    display: none;
+  }
+  .header-one {
+    background-color: black;
+    width: 100%;
+  }
+  header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: white;
+    height: 60px;
+    display: flex;
+    width: 100%;
+  }
+  #menu-cross {
+    display: flex;
+    padding-left: 20%;
+    font-size: 12.5px;
+  }
+  h1 {
+    color: black;
+    font-size: 20px;
+  }
+  a.large-button {
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  .intro-section {
+    margin-top: 30%;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    height: 100px;
+  }
+  h4.title-links {
+    margin-top: 40%;
+    display: block;
+    width: 100%;
+  }
+  .newsletter {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .hidden-footer {
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 12px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 10px;
+  }
+}
